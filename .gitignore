@@ -1,3 +1,6 @@
 *.sln
 Library/
 Temp/
+.vs/
+*.csproj
+obj/

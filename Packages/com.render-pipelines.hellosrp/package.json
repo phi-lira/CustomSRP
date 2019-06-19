@@ -1,0 +1,10 @@
+{
+  "name": "com.render-pipelines.hellosrp",
+  "description": "Barebones render pipeline to be used as starting point.",
+  "version": "0.1.0-preview",
+  "unity": "2019.3",
+  "displayName": "Hello SRP",
+  "dependencies": {
+    "com.unity.render-pipelines.core": "6.7.1"
+  }
+}
