@@ -19,11 +19,25 @@ It also already creates setups base files to distribute this custom SRP as a pac
 
 ## What's in the package
 
- + Runtime
-    + CustomRenderPipeline.cs -  Contains rendering related code. Edit this file to add the desired rendering logic.
-    + CustomRenderPipelineAsset.cs - Creates render pipeline instance. Can hold render pipeline resources.
- + ShaderLibrary
-    + Core.hlsl - Includes all basic shader necessary files.
-    + UnityInput.hlsl - Contains declaration of all built-in Unity shader constants.
- + Shaders
-    + Unlit.shader - Unlit shader example.
+The package follows the Unity's Package Manager [recommended layout](https://docs.unity3d.com/Manual/cus-layout.html)
++ `package.json` describes the [package metadata](https://docs.unity3d.com/Manual/upm-manifestPkg.html) required by Package Manager.
++ `README.md` contains project description used by Github.
++ `CHANGELOG.md` contains changelog entries. This is used by Package Manager to display changelog information in the Editor.
++ `LICENSE.md` containts package license information. This is used by Package Manager to display license information in the Editor.
++ Editor
+    + `Unity.com.render-pipelines.Editor.asmdef` the [assembly definition](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) file for editor scripts.
++ Runtime
+    + `CustomRenderPipeline.cs` -  Contains rendering related code. Edit this file to add the desired rendering logic.
+    + `CustomRenderPipelineAsset.cs` - Creates render pipeline instance. Can hold render pipeline resources.
+    + `Unity.com.render-pipelines.asmdef` - the [assembly definition](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) file for editor scripts.
++ ShaderLibrary
+    + `Core.hlsl` - Includes all basic shader necessary files.
+    + `UnityInput.hlsl` - Contains declaration of all built-in Unity shader constants.
++ Shaders
+    + `Unlit.shader` - Unlit shader example.
++ Tests
+    + Contains Editor and Runtime test folders. To be used with [UnityTestRunner](https://docs.unity3d.com/2020.1/Documentation/Manual/testing-editortestsrunner.html) to write automated package tests.
++ Documentation~
+    + `index.md` - Contains index page for documentation. This is used by Package Manager to display package docs.
++ Samples~
+    + Add any sample scenes to your package here. This will be displayer by Package Manager.
