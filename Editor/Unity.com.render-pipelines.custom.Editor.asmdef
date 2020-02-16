@@ -1,0 +1,19 @@
+{
+    "name": "Unity.com.unity.render-pipelines.custom.Editor",
+    "references": [
+        "GUID:3eae0364be2026648bf74846acb8a731",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:3777ec88533f65c438f90f319d44b6c7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
