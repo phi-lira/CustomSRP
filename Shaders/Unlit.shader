@@ -14,7 +14,7 @@
         Pass
         {
             // This tag must match ShaderTagId passed in ScriptableRenderContext.DrawRenderers
-            Tags { "LightMode" = "BasePass"}
+            Tags { "LightMode" = "ForwardLit"}
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
