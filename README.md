@@ -5,7 +5,7 @@ It also already creates setups base files to distribute this custom SRP as a pac
 
 ## Create your custom SRP package from this template
 + Create a Github repository from this template by clicking on the `Use this template` button at the top.
-+ In `com.unity.render-pipelines.custom` folder, edit `package.json` file to configure the [package manifest].(https://docs.unity3d.com/Manual/upm-manifestPkg.html).
++ In `com.unity.render-pipelines.custom` folder, edit `package.json` file to configure the [package manifest](https://docs.unity3d.com/Manual/upm-manifestPkg.html).
 + Update `README.md` and `LICENSE` files to reflect the contents of your package.
 
 ## How to install your package in your Unity project
