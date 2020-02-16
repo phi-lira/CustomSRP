@@ -5,17 +5,17 @@ It also already creates setups base files to distribute this custom SRP as a pac
 
 ## Create your custom SRP package from this template
 + Create a Github repository from this template by clicking on the `Use this template` button at the top.
-+ In `com.unity.render-pipelines.custom` folder, edit `package.json` file to configure the [package manifest](https://docs.unity3d.com/Manual/upm-manifestPkg.html).
++ In `com.unity.render-pipelines.custom` folder, edit `package.json` file to configure the [package manifest].(https://docs.unity3d.com/Manual/upm-manifestPkg.html).
 + Update `README.md` and `LICENSE` files to reflect the contents of your package.
 
 ## How to install your package in your Unity project
-+ In Unity, click at the top bar on `Window -> Package Manager` 
++ In Unity, click at the top bar on `Window -> Package Manager`. 
 + Follow these [instructions](https://docs.unity3d.com/Manual/upm-ui-local.html) to install it as a local package.
 
 ## How to use
 
 1) Create a render pipeline asset by clicking on `Assets -> Create -> Custom Render Pipeline Asset`.
-2) In [Graphics Settings](https://docs.unity3d.com/Manual/class-GraphicsSettings.html, assign the newly created render pipeline asset in the `Scriptable Render Pipeline Settings` field.
+2) In [Graphics Settings](https://docs.unity3d.com/Manual/class-GraphicsSettings.html), assign the newly created render pipeline asset in the `Scriptable Render Pipeline Settings` field.
 
 ## What's in the package
 
