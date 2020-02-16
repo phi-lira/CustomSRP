@@ -39,4 +39,4 @@ The package follows the Unity's Package Manager [recommended layout](https://doc
 + Documentation~
     + `index.md` - Contains index page for documentation. This is used by Package Manager to display package docs.
 + Samples~
-    + Add any sample scenes to your package here. This will be displayer by Package Manager.
+    + Add any sample scenes to your package here. This will be displayed by Package Manager.
