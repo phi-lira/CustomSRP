@@ -1,7 +1,8 @@
 # HelloSRP
-Bare Bones Scriptable Render Pipeline. Use it as a base to create your own. 
+Custom boiler plate render pipeline to be used as starting point when creating custom render pipelines.
 
 ## How to use
+
 Clone this github repository in your Unity's project `Packages` folder.
 This will import HelloSRP package into your project.
 
@@ -11,7 +12,7 @@ This will import HelloSRP package into your project.
 ## What's in the package
 
  + Runtime
-    + CustomRenderPipeline.cs -  Contains rendering related code. Edit this file to desired rendering logic.
+    + CustomRenderPipeline.cs -  Contains rendering related code. Edit this file to add the desired rendering logic.
     + CustomRenderPipelineAsset.cs - Creates render pipeline instance. Can hold render pipeline resources.
  + ShaderLibrary
     + Core.hlsl - Includes all basic shader necessary files.
