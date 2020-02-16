@@ -1,9 +1,9 @@
-﻿Shader "Hello SRP/Unlit"
+﻿Shader "Custom SRP/Unlit"
 {
     Properties
     {
-        _BaseMap ("Texture", 2D) = "white" {}
-        _BaseColor ("Color", Color) = (1.0, 1.0, 1.0, 1.0)
+        [MainTexture] _BaseMap ("Texture", 2D) = "white" {}
+        [MainColor] _BaseColor ("Color", Color) = (1.0, 1.0, 1.0, 1.0)
     }
     
     SubShader
@@ -19,7 +19,7 @@
             #pragma vertex vert
             #pragma fragment frag
 
-            #include "Packages/com.render-pipelines.hellosrp/ShaderLibrary/Core.hlsl"
+            #include "Packages/com.render-pipelines.custom/ShaderLibrary/Core.hlsl"
 
             TEXTURE2D(_BaseMap);
             SAMPLER(sampler_BaseMap);
